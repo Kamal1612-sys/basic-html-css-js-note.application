@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <link rel="stylesheet" href="C:\Users\kamal\Desktop\webdevlopment\noteapp\note.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        </style>
+</head>
+<title>Notes</title>
+<link rel="icon" href="icon.jpeg">
+<body bgcolor="lightblue">
+    <div class="navbar">
+        <nav>
+            <h1>NOTES 📝</h1>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="bookcontainer">
+        <h3>Meeting Shedule</h3>
+        <h5>Office</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, impedit.</p>
+        <button onclick="deletenote(event)">Delete</button>
+        </div>
+
+    
+    <div class="popupoverlay"></div>
+    <div class="popupbox">
+        <h2>Add Note</h2>
+        <form>
+            <input type="text" placeholder="Note Title" id="notetitleinput">
+            <input type="text" placeholder="About" id="aboutinput">
+            <br>
+            <textarea placeholder="Write Note" id="noteinput"></textarea>
+            <br>
+            <button id="addbutton">Add</button>
+            <button id="cancelbutton">Cancel</button>
+
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button"><h1>+</h1></button>
+    <script src="C:\Users\kamal\Desktop\webdevlopment\noteapp\note.js"></script>
+    
+</body>
+</html>
